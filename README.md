@@ -64,8 +64,8 @@ admin.site.unregister(Group)
 admin.site.disable_action('delete_selected')
 ```
 
-* `site_title` ブラウザのタブに表示されるタイトル（<title>）
-* `site_header` ヘッダ部分に表示されるタイトル（<h1>）
+* `site_title` ブラウザのタブに表示されるタイトル（`<title>`）
+* `site_header` ヘッダ部分に表示されるタイトル（`<h1>`）
 * `index_title` トップページタイトル
 * `unregister` 管理サイトに登録済みのモデルを解除する
 * `disable_action` 指定したアクションを使用不可にする（`delete_selected`は削除不可）
